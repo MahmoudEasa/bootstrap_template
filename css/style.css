@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+:root {
+	--mainColor: #ffc107;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	direction: rtl;
+	text-align: right;
+	list-style: none;
+	text-decoration: none;
+	font-family: "Tajawal", sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+.nav-link-gap {
+	gap: 10px;
+}
+
+.section {
+	height: 100%;
+	padding: 50px 0;
+}
+
+.section_title {
+	position: relative;
+	/* width: fit-content; */
+	display: inline-block;
+}
+
+.section_title::after {
+	content: "";
+	position: absolute;
+	width: 70%;
+	height: 5px;
+	background-color: var(--mainColor);
+	bottom: -20px;
+	right: 0;
+}
+
+.home {
+	background-image: url("https://hamzanabil.github.io/arabic-bootstrap/images/slide-bg-1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 1px;
+	height: 90vh;
+}
+
+.home-item {
+	width: 50%;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+@media (max-width: 768px) {
+	.home-item {
+		width: 100%;
+	}
+	.home-item {
+		margin-top: 50%;
+	}
+}
+
+.home-item h2 {
+	font-size: 45px;
+}
+
+.home-item p {
+	font-size: 20px;
+}
+
+button {
+	margin-bottom: 10px;
+}
+
+.news-left {
+	width: 200px;
+}
+
+.subscribe {
+	background-image: url("https://hamzanabil.github.io/arabic-bootstrap/images/subscribe-our-newsletter-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+}
+
+.subscribe-item {
+	display: inline-block;
+	width: 60%;
+}
+
+@media (max-width: 768px) {
+	.subscribe-item {
+		width: 100%;
+	}
+}
+
+.subscribe-item input {
+	height: 50px;
+	border-radius: 10px;
+	outline: none;
+}
+
+footer {
+	background-color: #071c33;
+	font-size: 18px;
+}
+
+footer a {
+	color: var(--mainColor);
+}
+
+footer h2 {
+	font-size: 25px;
+}
+
+footer .news-left {
+	width: 100px;
+}
