@@ -9,7 +9,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	direction: rtl;
-	text-align: right;
+	text-align: right !important;
 	list-style: none;
 	text-decoration: none;
 	font-family: "Tajawal", sans-serif;
